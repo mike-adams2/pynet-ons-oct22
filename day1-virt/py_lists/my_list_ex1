@@ -1,0 +1,8 @@
+my_list = ["first", "second", "third", "fourth", "last"]
+my_list.append("whatever")
+my_list.append("one more")
+print(my_list.pop(0))
+
+print(f"Length of list: {len(my_list)}")
+my_list.sort()
+print(my_list)
