@@ -12,3 +12,6 @@ octets = ipaddr.split(".")
 print()
 print(f"{octets[0]:<10}{octets[1]:<12}{octets[2]:<12}{octets[3]:<12}")
 print()
+
+
+#line
