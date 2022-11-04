@@ -10,3 +10,6 @@ def display_output(msg1, msg2):
 
 display_output("Message1", "Message2")
 display_output("Hello", "Something")
+display_output(msg2='message 2', msg1='msg_1')
+
+display_output(msg1='444')
