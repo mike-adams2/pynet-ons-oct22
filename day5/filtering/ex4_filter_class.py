@@ -2,7 +2,7 @@ import rich
 from getpass import getpass
 from my_aruba import ArubaAPI
 
-host = "aruba.lasthop.io"
+host = "10.5.235.12"
 username = input("Enter your username: ")
 password = getpass()
 aruba_conn = ArubaAPI(host=host, username=username, password=password)
